@@ -125,6 +125,15 @@ body {
   width: 30%;
 }
 
+.nav .nav-items .nav-item.active .nav-link {
+  color: #e05851;
+}
+
+.nav .nav-items .nav-item.active .nav-link .icon {
+  fill: #e05851;
+  stroke: #e05851;
+}
+
 .nav .nav-items .nav-item .nav-link {
   display: flex;
   flex-direction: column;
