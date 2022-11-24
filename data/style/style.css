@@ -90,4 +90,7 @@ ul {
   .title {
     margin-bottom: 3rem;
   }
+  .header { 
+    width: 400px;
+  }
 }
