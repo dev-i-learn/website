@@ -9,53 +9,59 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap" />
 </head>
 <body>
-  <header class="header">
-    <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+  <header class="header-container">
+    <div class="header">
+      <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+    </div>
   </header>
 
-  <hgroup class="title easy">
-    <h1>Correction</h1>
-    <h2>Easy Board</h2>
-  </hgroup>
+  <div class="page-content">
 
-  <pre class="pre">
-<code class="code easy">&lt;!<span class="tag">DOCTYPE</span> <span class="attr">html</span>&gt;
-&lt;<span class="tag">html</span> <span class="attr">lang</span>=<span class="value">"en"</span>&gt;
+    <hgroup class="title easy">
+      <h1>Correction</h1>
+      <h2>Easy Board</h2>
+    </hgroup>
+  
+    <pre class="pre">
+  <code class="code easy">&lt;!<span class="tag">DOCTYPE</span> <span class="attr">html</span>&gt;
+  &lt;<span class="tag">html</span> <span class="attr">lang</span>=<span class="value">"en"</span>&gt;
+  
+  &lt;<span class="tag">head</span>&gt;
+    &lt;<span class="tag">meta</span> <span class="attr">charset</span>=<span class="value">"UTF-8"</span>&gt;
+    &lt;<span class="tag">meta</span> <span class="attr">http-equiv</span>=<span class="value">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="value">"IE=edge"</span>&gt;
+    &lt;<span class="tag">meta</span> <span class="attr">name</span>=<span class="value">"viewport"</span> <span class="attr">content</span>=<span class="value">"width=device-width, initial-scale=1.0"</span>&gt;
+    &lt;<span class="answer tag">title</span>&gt;Dev-i-learn&lt;/<span class="answer tag">title</span>&gt;
+    &lt;<span class="tag">link</span> <span class="attr">rel</span>=<span class="value">"stylesheet"</span> <span class="attr">href</span>=<span class="value">"data/css/style.css"</span>&gt;
+  &lt;/<span class="tag">head</span>&gt;
+  
+  &lt;<span class="tag">body</span>&gt;
+  
+    &lt;<span class="answer tag">div</span> <span class="attr">class</span>=<span class="value">"content-container"</span>&gt;
+  
+      &lt;<span class="answer tag">a</span> <span class="attr">href</span>=<span class="value">"page.html"</span> <span class="attr">title</span>=<span class="value">"Link to some page"</span>&gt;
+        Click here
+      &lt;/<span class="answer tag">a</span>&gt;
+  
+      &lt;<span class="answer tag">img</span> <span class="attr">src</span>=<span class="value">"data/img/first-image.jpg"</span>&gt;
+  
+      &lt;<span class="answer tag">p</span>&gt;This is my first paragraph&lt;/<span class="answer tag">p</span>&gt;
+  
+    &lt;/<span class="answer tag">div</span>&gt;
+  
+  &lt;/<span class="tag">body</span>&gt;
+  
+  &lt;/<span class="tag">html</span>&gt;</code></pre>
+  
+    <h3 class="explanations-title">Explanations</h3>
+    <ul class="explanations">
+      <li><span class="text-bold">&lt;title&gt;</span>: The &lt;title&gt; tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</li>
+      <li><span class="text-bold">&lt;div&gt;</span>: The &lt;div&gt; tag defines a division or a section in an HTML document. It's used a lot to apply class or id to it, then style it with CSS or manipulate it with JavaScript.</li>
+      <li><span class="text-bold">&lt;a&gt;</span>: The &lt;a&gt; tag defines either a hyperlink, which is used to link from one page to another. Either an id, which is used to scroll to a spicific section.</li>
+      <li><span class="text-bold">&lt;img&gt;</span>: The &lt;img&gt; tag is used to embed an image in an HTML page.</li>
+      <li><span class="text-bold">&lt;p&gt;</span>: The &lt;p&gt; tag defines a paragraph.</li>
+    </ul>
 
-&lt;<span class="tag">head</span>&gt;
-  &lt;<span class="tag">meta</span> <span class="attr">charset</span>=<span class="value">"UTF-8"</span>&gt;
-  &lt;<span class="tag">meta</span> <span class="attr">http-equiv</span>=<span class="value">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="value">"IE=edge"</span>&gt;
-  &lt;<span class="tag">meta</span> <span class="attr">name</span>=<span class="value">"viewport"</span> <span class="attr">content</span>=<span class="value">"width=device-width, initial-scale=1.0"</span>&gt;
-  &lt;<span class="answer tag">title</span>&gt;Dev-i-learn&lt;/<span class="answer tag">title</span>&gt;
-  &lt;<span class="tag">link</span> <span class="attr">rel</span>=<span class="value">"stylesheet"</span> <span class="attr">href</span>=<span class="value">"data/css/style.css"</span>&gt;
-&lt;/<span class="tag">head</span>&gt;
-
-&lt;<span class="tag">body</span>&gt;
-
-  &lt;<span class="answer tag">div</span> <span class="attr">class</span>=<span class="value">"content-container"</span>&gt;
-
-    &lt;<span class="answer tag">a</span> <span class="attr">href</span>=<span class="value">"page.html"</span> <span class="attr">title</span>=<span class="value">"Link to some page"</span>&gt;
-      Click here
-    &lt;/<span class="answer tag">a</span>&gt;
-
-    &lt;<span class="answer tag">img</span> <span class="attr">src</span>=<span class="value">"data/img/first-image.jpg"</span>&gt;
-
-    &lt;<span class="answer tag">p</span>&gt;This is my first paragraph&lt;/<span class="answer tag">p</span>&gt;
-
-  &lt;/<span class="answer tag">div</span>&gt;
-
-&lt;/<span class="tag">body</span>&gt;
-
-&lt;/<span class="tag">html</span>&gt;</code></pre>
-
-  <h3 class="explanations-title">Explanations</h3>
-  <ul class="explanations">
-    <li><span class="text-bold">&lt;title&gt;</span>: The &lt;title&gt; tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</li>
-    <li><span class="text-bold">&lt;div&gt;</span>: The &lt;div&gt; tag defines a division or a section in an HTML document. It's used a lot to apply class or id to it, then style it with CSS or manipulate it with JavaScript.</li>
-    <li><span class="text-bold">&lt;a&gt;</span>: The &lt;a&gt; tag defines either a hyperlink, which is used to link from one page to another. Either an id, which is used to scroll to a spicific section.</li>
-    <li><span class="text-bold">&lt;img&gt;</span>: The &lt;img&gt; tag is used to embed an image in an HTML page.</li>
-    <li><span class="text-bold">&lt;p&gt;</span>: The &lt;p&gt; tag defines a paragraph.</li>
-  </ul>
+  </div>
 
   <footer class="footer">
     Dev-i-learn © | 2022

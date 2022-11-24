@@ -8,77 +8,83 @@
   <link rel="stylesheet" href="../../data/style/style.css">
 </head>
 <body>
-  <header class="header">
-    <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+  <header class="header-container">
+    <div class="header">
+      <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+    </div>
   </header>
 
-  <hgroup class="title hard">
-    <h1>Correction</h1>
-    <h2>Hard Board</h2>
-  </hgroup>
+  <div class="page-content">
 
-  <pre class="pre">
-<code class="code hard">&lt;<span class="answer">!DOCTYPE</span> html&gt;
-&lt;<span class="answer">html</span> <span class="answer">lang</span>="en"&gt;
-
-&lt;head&gt;
-  &lt;<span class="answer">meta</span> charset="UTF-8"&gt;
-  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Dev-i-learn&lt;/title&gt;
-  &lt;link rel="stylesheet" href="data/css/style.css"&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-
-  &lt;<span class="answer">h1</span>&gt;My home page&lt;/<span class="answer">h1</span>&gt;
-
-  &lt;<span class="answer">section</span>&gt;
-    &lt;div <span class="answer">class</span>="section-container"&gt;
-      &lt;div class="section-content"&gt;
-        &lt;<span class="answer">h2</span> class="section-title"&gt;My section title&lt;/<span class="answer">h2</span>&gt;
-        &lt;img src="data/img/first-image.jpg" <span class="answer">alt</span>="first-image" title="First image"&gt;
-        &lt;p <span class="answer">title</span>="First paragraph"&gt;This is my first paragraph&lt;/p&gt;
-        &lt;h3 <span class="answer">id</span>="contact-title"&gt;Contact Me&lt;/h3&gt;
-        &lt;form <span class="answer">action</span>="contact_form.php"&gt; 
-          &lt;label for="first-name"&gt;Your first name:&lt;/label&gt;
-          &lt;input <span class="answer">type</span>="text" name="first_name" id="first-name"&gt;
-
-          &lt;label for="first-name"&gt;Your last name:&lt;/label&gt;
-          &lt;input type="text" name="last_name" id="last-name"&gt;
-
-          &lt;label for="email"&gt;Your email:&lt;/label&gt;
-          &lt;input type="email" name="email" id="email"&gt;
-
-          &lt;<span class="answer">button</span> type="submit"&gt;Send&lt;/<span class="answer">button</span>&gt;
-        &lt;/form&gt;
+    <hgroup class="title hard">
+      <h1>Correction</h1>
+      <h2>Hard Board</h2>
+    </hgroup>
+  
+    <pre class="pre">
+  <code class="code hard">&lt;<span class="answer">!DOCTYPE</span> html&gt;
+  &lt;<span class="answer">html</span> <span class="answer">lang</span>="en"&gt;
+  
+  &lt;head&gt;
+    &lt;<span class="answer">meta</span> charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Dev-i-learn&lt;/title&gt;
+    &lt;link rel="stylesheet" href="data/css/style.css"&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+  
+    &lt;<span class="answer">h1</span>&gt;My home page&lt;/<span class="answer">h1</span>&gt;
+  
+    &lt;<span class="answer">section</span>&gt;
+      &lt;div <span class="answer">class</span>="section-container"&gt;
+        &lt;div class="section-content"&gt;
+          &lt;<span class="answer">h2</span> class="section-title"&gt;My section title&lt;/<span class="answer">h2</span>&gt;
+          &lt;img src="data/img/first-image.jpg" <span class="answer">alt</span>="first-image" title="First image"&gt;
+          &lt;p <span class="answer">title</span>="First paragraph"&gt;This is my first paragraph&lt;/p&gt;
+          &lt;h3 <span class="answer">id</span>="contact-title"&gt;Contact Me&lt;/h3&gt;
+          &lt;form <span class="answer">action</span>="contact_form.php"&gt; 
+            &lt;label for="first-name"&gt;Your first name:&lt;/label&gt;
+            &lt;input <span class="answer">type</span>="text" name="first_name" id="first-name"&gt;
+  
+            &lt;label for="first-name"&gt;Your last name:&lt;/label&gt;
+            &lt;input type="text" name="last_name" id="last-name"&gt;
+  
+            &lt;label for="email"&gt;Your email:&lt;/label&gt;
+            &lt;input type="email" name="email" id="email"&gt;
+  
+            &lt;<span class="answer">button</span> type="submit"&gt;Send&lt;/<span class="answer">button</span>&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
       &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
+    &lt;/section&gt;
+  
+  &lt;/body&gt;
+  
+  &lt;/html&gt;</code></pre>
+  
+    <h3 class="explanations-title">Explanations</h3>
+    <ul class="explanations">
+      <li><span class="text-bold">!DOCTYPE</span>: All HTML documents must start with a <!DOCTYPE> declaration. It is an "information" to the browser about what document type to expect.</li>
+      <li><span class="text-bold">&lt;html&gt;</span>: The &lt;html&gt; tag represents the root of an HTML document. It's the container for all other HTML elements.</li>
+      <li><span class="text-bold">lang</span>: You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</li>
+      <li><span class="text-bold">&lt;meta&gt;</span>: The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data.</li>
+      <li><span class="text-bold">&lt;h1&gt; to &lt;h6&gt;</span>: The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</li>
+      <li><span class="text-bold">&lt;section&gt;</span>: The &lt;section&gt; tag defines a section in a document.</li>
+      <li><span class="text-bold">class</span>: The class attribute is used to specify a class for an HTML element. It's often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
+      <li><span class="text-bold">alt</span>: In the &lt;img&gt; tag, the alt attribute specifies an alternate text for an image, if the image for some reason cannot be displayed.</li>
+      <li><span class="text-bold">title</span>: The title attribute defines some extra information about an element. The value of the title attribute will be displayed as a tooltip when you mouse over the element.</li>
+      <li><span class="text-bold">id</span>: The id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.</li>
+      <li><span class="text-bold">action</span>: The action attribute is used to specify where the formdata is to be sent to the server after submission of the form. It must be used in the &lt;form&gt; element.</li>
+      <li>
+        <span class="text-bold">type</span>: For &lt;button&gt; elements, the type attribute specifies the type of button.<br/>
+        For &lt;input&gt; elements, the type attribute specifies the type of &lt;input&gt; element to display. It define the type of data we can put on the field (text, checkbox, email, file, date, image, ...).
+      </li>
+      <li><span class="text-bold">&lt;button&gt;</span>: The &lt;button&gt; tag defines a clickable button. Inside a &lt;button&gt; element you can put text, and other tags. That is not possible with a button created with the &lt;input&gt; element!</li>
+    </ul>
 
-&lt;/body&gt;
-
-&lt;/html&gt;</code></pre>
-
-  <h3 class="explanations-title">Explanations</h3>
-  <ul class="explanations">
-    <li><span class="text-bold">!DOCTYPE</span>: All HTML documents must start with a <!DOCTYPE> declaration. It is an "information" to the browser about what document type to expect.</li>
-    <li><span class="text-bold">&lt;html&gt;</span>: The &lt;html&gt; tag represents the root of an HTML document. It's the container for all other HTML elements.</li>
-    <li><span class="text-bold">lang</span>: You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</li>
-    <li><span class="text-bold">&lt;meta&gt;</span>: The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data.</li>
-    <li><span class="text-bold">&lt;h1&gt; to &lt;h6&gt;</span>: The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</li>
-    <li><span class="text-bold">&lt;section&gt;</span>: The &lt;section&gt; tag defines a section in a document.</li>
-    <li><span class="text-bold">class</span>: The class attribute is used to specify a class for an HTML element. It's often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
-    <li><span class="text-bold">alt</span>: In the &lt;img&gt; tag, the alt attribute specifies an alternate text for an image, if the image for some reason cannot be displayed.</li>
-    <li><span class="text-bold">title</span>: The title attribute defines some extra information about an element. The value of the title attribute will be displayed as a tooltip when you mouse over the element.</li>
-    <li><span class="text-bold">id</span>: The id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.</li>
-    <li><span class="text-bold">action</span>: The action attribute is used to specify where the formdata is to be sent to the server after submission of the form. It must be used in the &lt;form&gt; element.</li>
-    <li>
-      <span class="text-bold">type</span>: For &lt;button&gt; elements, the type attribute specifies the type of button.<br/>
-      For &lt;input&gt; elements, the type attribute specifies the type of &lt;input&gt; element to display. It define the type of data we can put on the field (text, checkbox, email, file, date, image, ...).
-    </li>
-    <li><span class="text-bold">&lt;button&gt;</span>: The &lt;button&gt; tag defines a clickable button. Inside a &lt;button&gt; element you can put text, and other tags. That is not possible with a button created with the &lt;input&gt; element!</li>
-  </ul>
+  </div>
 
   <footer class="footer">
     Dev-i-learn © | 2022

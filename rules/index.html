@@ -9,102 +9,108 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap" />
 </head>
 <body class="rules">
-  <header class="header">
-    <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+  <header class="header-container">
+    <div class="header">
+      <img src="../../data/img/logo.svg" alt="logo-dev-i-learn" title="Dev-i-learn logo" class="logo">
+    </div>
   </header>
 
-  <section class="rules-intro">
-    <p>Welcome! It’s dark, it’s hot, it’s hell! Here is where you learn to code while playing, cheating, and disturbing other players!!<br>
-    In this fill-the-blank game, you will learn the basics of HTML, and on higher levels you can even learn CSS !</p>
-    <p>But beware, while there are penalty cards that you can inflict upon other players, there’s also tricky cards with wrong HTML tags that can mislead YOU… Good luck… 😈</p>
-  </section>
-
-  <section class="rules-container">
-    <h1 class="title">RULES :</h1>
-
-    <div class="rules-content">
-      <p>Objective : win the game by being the player to correctly place the most cards on the board. Every correctly placed card earns you two points. The winner is the owner of the higher amount of points ! 🏆✨<br>
-      Beware… The rules don't forbid cheating… So stay alert 😜
-      </p>
+  <div class="page-content">
+    
+    <section class="rules-intro">
+      <p>Welcome! It’s dark, it’s hot, it’s hell! Here is where you learn to code while playing, cheating, and disturbing other players!!<br>
+      In this fill-the-blank game, you will learn the basics of HTML, and on higher levels you can even learn CSS !</p>
+      <p>But beware, while there are penalty cards that you can inflict upon other players, there’s also tricky cards with wrong HTML tags that can mislead YOU… Good luck… 😈</p>
+    </section>
+  
+    <section class="rules-container">
+      <h1 class="title">RULES :</h1>
+  
+      <div class="rules-content">
+        <p>Objective : win the game by being the player to correctly place the most cards on the board. Every correctly placed card earns you two points. The winner is the owner of the higher amount of points ! 🏆✨<br>
+        Beware… The rules don't forbid cheating… So stay alert 😜
+        </p>
+        
+        <p>Begin by choosing the difficulty level (the board with words in color is the easy one, the orange-framed one is the medium and the red-framed one is the hard). Select the HTML deck accordingly. For the medium and the hard levels, place the “CSS” deck nearby, you could be invited to use it !😉</p>
       
-      <p>Begin by choosing the difficulty level (the board with words in color is the easy one, the orange-framed one is the medium and the red-framed one is the hard). Select the HTML deck accordingly. For the medium and the hard levels, place the “CSS” deck nearby, you could be invited to use it !😉</p>
-    
-      <p>Then mix the HTML deck, distribute 3 cards to each player and place the rest on the table. Save some space for the discard pile.</p>
-    
-      <p>The youngest player begins the first round, each consecutive round is started by the winner of the previous round.</p>
-    
-      <p>The first player draws a card, and has three choices :<br>
-        Option 1 : Put a card on the game board. There are clues on the bord, which should correspond to clues on the cards in your hand.
-        Option 2 : Discard a card.<br>
-        Option 3 : Inflict a penalty upon your adversaries (see “Types of penalty cards” down below).<br>
-        Anytime a player places a card on the board, note their name and the HTML tag on the “points table”.</p>
-    
-      <p>The next player has 2 options:<br>
-        Option 1 : Draw a card from the deck<br>
-        Option 2 : Draw the top card from the discard pile.</p>
-    
-      <p>Repeat until the game board is complete. When that’s done, take the solution sheet. Each correctly placed card attributes 2 points to the player that placed it. A wrongly placed card removes 1 point from the player who placed it. Beware, if you keep a penalty card in your hand, you will lose one point ! 😈</p>
-    
-      <p>When the entire board is correct, congratulations! You have unlocked the next level! You now know more about HTML, CSS, and… You know more about your evil friends too ! 😈</p>
-    </div>
-  </section>
+        <p>Then mix the HTML deck, distribute 3 cards to each player and place the rest on the table. Save some space for the discard pile.</p>
+      
+        <p>The youngest player begins the first round, each consecutive round is started by the winner of the previous round.</p>
+      
+        <p>The first player draws a card, and has three choices :<br>
+          Option 1 : Put a card on the game board. There are clues on the bord, which should correspond to clues on the cards in your hand.
+          Option 2 : Discard a card.<br>
+          Option 3 : Inflict a penalty upon your adversaries (see “Types of penalty cards” down below).<br>
+          Anytime a player places a card on the board, note their name and the HTML tag on the “points table”.</p>
+      
+        <p>The next player has 2 options:<br>
+          Option 1 : Draw a card from the deck<br>
+          Option 2 : Draw the top card from the discard pile.</p>
+      
+        <p>Repeat until the game board is complete. When that’s done, take the solution sheet. Each correctly placed card attributes 2 points to the player that placed it. A wrongly placed card removes 1 point from the player who placed it. Beware, if you keep a penalty card in your hand, you will lose one point ! 😈</p>
+      
+        <p>When the entire board is correct, congratulations! You have unlocked the next level! You now know more about HTML, CSS, and… You know more about your evil friends too ! 😈</p>
+      </div>
+    </section>
+  
+    <section class="penality-cards">
+      <h2 class="title">Penalty Cards :</h2>
+      <ul class="list">
+        <li>
+          <span class="icon-wrapper">
+            <img src="../data/img/trap1.svg" alt="Card picto" class="icon">
+          </span>
+          Remove a card of another player (it goes to discard pile) 😈</li>
+        <li>
+          <span class="icon-wrapper">
+            <img src="../data/img/trap2.svg" alt="Card picto" class="icon">
+          </span>
+          The player of your choice discards their entire hand and draws 3 new cards 😈
+        </li>
+        <li>
+          <span class="icon-wrapper">
+            <img src="../data/img/trap3.svg" alt="Card picto" class="icon">
+          </span>
+          The player of your choice skips their turn 😈
+        </li>
+        <li>
+          <span class="icon-wrapper">
+            <img src="../data/img/trap4.svg" alt="Card picto" class="icon">
+          </span>
+          The game changes direction of play 😈
+        </li>
+        <li>
+          <span class="icon-wrapper">
+            <img src="../data/img/trap5.svg" alt="Card picto" class="icon">
+          </span>
+          If you want to play this turn, solve the CSS puzzle ! 😈
+        </li>
+      </ul>
+    </section>
+    <section class="css">
+      <h2 class="title">CSS Rules : If you pick a CSS cardyou begin a new puzzle :</h2>
+      <ul class="list">
+        <li>Take all the CSS cards, place them on the table, red face up.</li>
+        <li>Mix them all.</li>
+        <li>Try to associate a clue with a pictogram.</li>
+        <li>Check the black side of the card to find out if your answer is correct !</li>
+        <li>If you’re right, keep going, if you’re wrong stop… and skip your turn ! 😈</li>
+      </ul>
+    </section>
+    <section class="notes">
+      <h2 class="title">Notes : </h2>
+      <p>For HTML places, you will sometimes find lists of tags. You only have to find the first HTML tag, but the others are hidden by &lt;?&gt; and &lt;/?&gt;</p>
+      <p>If you scan the QR code on the rules board, you will land on a page where you can download more templates, or even create your own !</p>
+      <p>BOX CONTENT <br>
+        3 Game boards (easy -> colored text, medium -> orange frame, hard -> red
+        frame) <br>
+        3 HTML deck (easy -> white text, medium -> orange text, hard -> red text) <br>
+        1 CSS deck (bigger cards) <br>
+        1 rule’s board, box’s content on the back <br>
+        1 solution’s board</p>
+    </section>
 
-  <section class="penality-cards">
-    <h2 class="title">Penalty Cards :</h2>
-    <ul class="list">
-      <li>
-        <span class="icon-wrapper">
-          <img src="../data/img/trap1.svg" alt="Card picto" class="icon">
-        </span>
-        Remove a card of another player (it goes to discard pile) 😈</li>
-      <li>
-        <span class="icon-wrapper">
-          <img src="../data/img/trap2.svg" alt="Card picto" class="icon">
-        </span>
-        The player of your choice discards their entire hand and draws 3 new cards 😈
-      </li>
-      <li>
-        <span class="icon-wrapper">
-          <img src="../data/img/trap3.svg" alt="Card picto" class="icon">
-        </span>
-        The player of your choice skips their turn 😈
-      </li>
-      <li>
-        <span class="icon-wrapper">
-          <img src="../data/img/trap4.svg" alt="Card picto" class="icon">
-        </span>
-        The game changes direction of play 😈
-      </li>
-      <li>
-        <span class="icon-wrapper">
-          <img src="../data/img/trap5.svg" alt="Card picto" class="icon">
-        </span>
-        If you want to play this turn, solve the CSS puzzle ! 😈
-      </li>
-    </ul>
-  </section>
-  <section class="css">
-    <h2 class="title">CSS Rules : If you pick a CSS cardyou begin a new puzzle :</h2>
-    <ul class="list">
-      <li>Take all the CSS cards, place them on the table, red face up.</li>
-      <li>Mix them all.</li>
-      <li>Try to associate a clue with a pictogram.</li>
-      <li>Check the black side of the card to find out if your answer is correct !</li>
-      <li>If you’re right, keep going, if you’re wrong stop… and skip your turn ! 😈</li>
-    </ul>
-  </section>
-  <section class="notes">
-    <h2 class="title">Notes : </h2>
-    <p>For HTML places, you will sometimes find lists of tags. You only have to find the first HTML tag, but the others are hidden by &lt;?&gt; and &lt;/?&gt;</p>
-    <p>If you scan the QR code on the rules board, you will land on a page where you can download more templates, or even create your own !</p>
-    <p>BOX CONTENT <br>
-      3 Game boards (easy -> colored text, medium -> orange frame, hard -> red
-      frame) <br>
-      3 HTML deck (easy -> white text, medium -> orange text, hard -> red text) <br>
-      1 CSS deck (bigger cards) <br>
-      1 rule’s board, box’s content on the back <br>
-      1 solution’s board</p>
-  </section>
+  </div>
 
   <footer class="footer">
     Dev-i-learn © | 2022
