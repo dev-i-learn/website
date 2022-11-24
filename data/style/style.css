@@ -155,7 +155,7 @@ body {
   margin-bottom: 20px;
 }
 
-.rules h2 {
+.rules .second-title {
   font-size: 1.1rem;
 }
 
@@ -210,6 +210,14 @@ body {
 .btn-secondary {
   color: #e05851;
   background-color: #1e1e1c;
+}
+
+.home .page-content section:nth-child(2) {
+  margin-bottom: 100px;
+}
+
+.home .page-content {
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width:  992px) {
