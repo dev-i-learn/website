@@ -23,7 +23,7 @@ section {
 }
 
 .page-content {
-  min-height: 66vh;
+  min-height: 58vh;
   max-width: 95%;
   margin: auto;
 }
@@ -196,7 +196,11 @@ section .title {
   margin-bottom: 20px;
 }
 
-.rules .css .list {
+.rules .list-no-padding {
+  padding-left: 20px;
+}
+
+.rules .list-no-padding ul {
   padding-left: 20px;
 }
 
@@ -206,6 +210,10 @@ section .title {
 
 .rules {
   text-align: justify;
+}
+
+.rules ul li {
+  margin-bottom: 15px;
 }
 
 .cta .btns-container {
@@ -283,7 +291,7 @@ section .title {
 @media screen and (min-width:  992px) {
   .page-content {
     max-width: 70%;
-    min-height: 67vh;
+    min-height: 57vh;
   }
   h1 {
     margin-bottom: 1rem;
